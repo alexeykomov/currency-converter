@@ -1,0 +1,15 @@
+.root {
+    border: 1px solid rgb(29, 29, 29);
+    flex: 2;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: rgb(16, 49, 86);
+    height: 47px;
+    color: white;
+    display: flex;
+    align-items: center;
+}

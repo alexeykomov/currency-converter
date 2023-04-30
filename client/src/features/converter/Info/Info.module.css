@@ -1,0 +1,27 @@
+.root {
+  box-sizing: border-box;
+  height: 110px;
+  padding: 20px;
+}
+
+.header {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.main-info {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.additional-info {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+}

@@ -1,0 +1,56 @@
+.app-header {
+  height: 48px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 20px;
+  background: rgb(16, 49, 86);
+  color: #fff;
+}
+
+.app-header-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .app-header {
+    padding: 0 12px;
+  }
+}
+
+.root {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  appearance: none;
+  background: transparent;
+  border: none;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.root:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px #fff;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 26px;
+  height: 20px;
+}
+
+.bar {
+  background: #fff;
+  height: 3px;
+}

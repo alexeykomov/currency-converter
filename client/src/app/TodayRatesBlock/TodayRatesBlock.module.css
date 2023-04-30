@@ -1,0 +1,25 @@
+.root {
+    border: 1px solid rgb(29, 29, 29);
+    flex: 1;
+    max-width: 330px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: rgb(16, 49, 86);
+    height: 47px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

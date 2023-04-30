@@ -1,0 +1,72 @@
+.root {
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.input-box {
+    position: relative;
+    padding-right: 8px;
+}
+
+.label {
+    position: absolute;
+    top: -20px;
+}
+
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid rgb(197, 197, 197);
+  border-radius: 2px;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='%23000000'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+  width: 260px;
+}
+
+@media (hover: hover) {
+    .select:hover {
+        border-color: #aaa;
+    }
+}
+
+.select:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(83, 151, 241, 0.5);
+  border-color: rgba(83, 151, 241, 0.5);
+}
+
+/* Disabled */
+.select:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  padding: 12px;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid rgb(197, 197, 197);
+  border-radius: 2px;
+  color: #333;
+}
+
+.input[type="number"]::-webkit-inner-spin-button,
+.input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.input[type="number"]:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(83, 151, 241, 0.5);
+  border-color: rgba(83, 151, 241, 0.5);
+}

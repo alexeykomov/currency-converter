@@ -1,0 +1,33 @@
+.root {
+    padding: 30px 20px 20px 20px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.rateItem dt {
+
+}
+
+.rateItem dd {
+
+}
+
+.rateItem {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    align-items: center;
+}
+
+.rateItem.rateItemlast {
+    border-bottom-color: transparent;
+}
+
+.loading {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

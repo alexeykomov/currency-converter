@@ -1,0 +1,28 @@
+.tabs-wrapper {
+    height: 21px;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.tab {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    color: rgba(110, 165, 190);
+    font-weight: bold;
+    color: rgb(16, 49, 86);
+    border-bottom: 2px solid transparent;
+}
+
+.tab-checked {
+    color: rgba(110, 165, 190);
+    border-bottom: 2px solid rgba(110, 165, 190);
+}
+
+.info {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
